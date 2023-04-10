@@ -331,7 +331,7 @@ ActivityResultListener, Result, ActivityAware, FlutterPlugin {
     context = flutterPluginBinding.applicationContext;
     threadPoolExecutor = Executors.newFixedThreadPool(4)
     checkAvailability()
-    healthConnectClient = HealthConnectClient.getOrCreate(flutterPluginBinding.applicationContext)
+ // healthConnectClient = HealthConnectClient.getOrCreate(flutterPluginBinding.applicationContext)
   }
 
   override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
